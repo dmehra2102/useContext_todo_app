@@ -1,0 +1,59 @@
+.TodoPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input_box_div{
+    margin-top: 1.6em;
+    padding: 5px;
+}
+.Todo_Body_div{
+    width: 50vw;
+    padding: 5px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.4em;
+}
+
+.SingleTodo_div{
+    border: 1px solid rgb(125, 120, 120);
+    padding: 8px;
+    box-shadow: rgba(85, 85, 171, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.SingleTodo_div > div{
+    width: 100%;
+    display: flex;
+}
+.index_no{
+    font-size: 20px;
+    padding: 4px;
+}
+.title{
+    font-size: 22px;
+    padding: 3px;
+    flex: 1;
+}
+
+.delete{
+    font-size: 20px;
+    padding: 0px 4px;
+    flex: 0.2;
+}
+
+#icons{
+    cursor: pointer;
+}
+.edit{
+    font-size: 20px;
+    padding: 0px 4px;
+    flex: 0.2;
+}
+
+.status{
+    font-size: 19px;
+    padding: 4px;
+    flex: 0.6;
+}

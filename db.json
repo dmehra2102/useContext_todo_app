@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "09298hbsjcb782_38b",
+      "title": "Learn Javascript",
+      "status": true
+    },
+    {
+      "title": "Learn Redux-toolkit",
+      "status": false,
+      "id": "fKw8NDt"
+    },
+    {
+      "title": "Learn Everything",
+      "status": false,
+      "id": "vR7eGhi"
+    },
+    {
+      "title": "Go away",
+      "status": false,
+      "id": "feBBMb6"
+    }
+  ]
+}
